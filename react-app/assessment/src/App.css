@@ -1,0 +1,67 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+table,th,td{
+  border: 0;
+}
+table{
+  width: 100%;
+  text-align: center;
+}
+.innerTable{
+  width: 100%;
+  text-align: center;
+}
+tr.headers{
+  background-color: #E5E7EB;
+}
+tr.even{
+  background-color: #F3F4F6;
+}
+tr.odd{
+  background-color: #E5E7EB;
+}
+
+tr.odd>td{
+  border-top: 1px solid #F87171 !important;
+  border-bottom: 1px solid #F87171 !important;
+}
+button.select{
+  padding: 4px 15px;
+  background-color: #312E81;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+}
+form{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+form>input{
+  padding: 10px;
+  color: #6B7293;
+  font-size: 18px;
+}
+form>select{
+  padding-left: 10px;
+  padding-right: 30px;
+  color: #6B7293;
+  font-size: 18px;
+}
+.submit{
+  padding: 4px 20px;
+  background-color: #312E81;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+}
+h3{
+  align-self: flex-start;
+}
